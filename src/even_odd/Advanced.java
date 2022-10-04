@@ -3,13 +3,13 @@ package even_odd;
 import java.util.Scanner;
 
 public class Advanced {
-    private String getEvenOdd(int num) {
+    private String discern(int num) {
         if (num % 2 == 0) return "짝수";
         else return "홀수";
     }
 
-    public void printEvenOddStatement(int first, int second) {
-        System.out.printf("%s+%s=%s", getEvenOdd(first), getEvenOdd(second), getEvenOdd(first + second));
+    public void printResult(int first, int second) {
+        System.out.printf("%s+%s=%s", discern(first), discern(second), discern(first + second));
     }
 
     public static void main(String[] args) {
@@ -19,6 +19,6 @@ public class Advanced {
         int secNum = sc.nextInt();
 
         Advanced test = new Advanced();
-        test.printEvenOddStatement(firstNum, secNum);
+        test.printResult(firstNum, secNum);
     }
 }
