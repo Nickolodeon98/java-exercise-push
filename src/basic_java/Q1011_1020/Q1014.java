@@ -1,4 +1,4 @@
-package basic_java;
+package basic_java.Q1011_1020;
 
 import java.util.Scanner;
 

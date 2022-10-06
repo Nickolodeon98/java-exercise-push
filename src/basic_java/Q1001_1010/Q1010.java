@@ -1,12 +1,11 @@
-package basic_java;
+package basic_java.Q1001_1010;
 
 import java.util.Scanner;
 
-public class Q1015 {
+public class Q1010 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        float num = sc.nextFloat();
-
-        System.out.printf("%.2f", num);
+        int n = sc.nextInt();
+        System.out.println(n);
     }
 }

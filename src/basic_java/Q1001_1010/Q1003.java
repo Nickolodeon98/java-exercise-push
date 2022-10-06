@@ -1,4 +1,4 @@
-package basic_java;
+package basic_java.Q1001_1010;
 
 public class Q1003 {
     public static void main(String[] args) {

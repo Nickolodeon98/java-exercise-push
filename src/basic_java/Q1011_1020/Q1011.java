@@ -1,11 +1,12 @@
-package basic_java;
+package basic_java.Q1011_1020;
 
 import java.util.Scanner;
 
-public class Q1010 {
+public class Q1011 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(n);
+        char x = sc.next().charAt(0);
+
+        System.out.println(x);
     }
 }
