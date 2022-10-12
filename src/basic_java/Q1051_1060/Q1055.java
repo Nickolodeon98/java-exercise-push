@@ -8,6 +8,6 @@ public class Q1055 {
         boolean a = sc.nextBoolean();
         boolean b = sc.nextBoolean();
 
-        if (a || b) System.out.println(true);
+        System.out.println(a || b);
     }
 }
